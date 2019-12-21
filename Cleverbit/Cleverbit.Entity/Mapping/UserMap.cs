@@ -8,7 +8,7 @@ namespace Cleverbit.Entity.Mapping
         {
             this.ToTable(nameof(User));
 
-            this.HasKey(x => x.Id);
+            this.HasMany(x => x.UserMatchResults).WithRequired(x => x.User).HasForeignKey(x => x.UserId);
         }
     }
 }

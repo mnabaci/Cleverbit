@@ -16,9 +16,13 @@ namespace Cleverbit.Entity
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Configurations.Add(new MatchMap());
             modelBuilder.Configurations.Add(new UserMap());
+            modelBuilder.Configurations.Add(new UserMatchResultMap());
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Match> Matches { get; set; }
+        public DbSet<UserMatchResult> UserMatchResults { get; set; }
     }
 }

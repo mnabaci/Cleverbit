@@ -50,9 +50,13 @@
   <ItemGroup>
     <Compile Include="CleverbitDbContext.cs" />
     <Compile Include="Mapping\BaseMap.cs" />
+    <Compile Include="Mapping\MatchMap.cs" />
     <Compile Include="Mapping\UserMap.cs" />
+    <Compile Include="Mapping\UserMatchResultMap.cs" />
     <Compile Include="Model\BaseEntity.cs" />
+    <Compile Include="Model\Match.cs" />
     <Compile Include="Model\User.cs" />
+    <Compile Include="Model\UserMatchResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
