@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cleverbit", "Cleverbit.\Cleverbit.csproj", "{EB775F5F-69C9-4B6F-B191-AFF3314A7443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB775F5F-69C9-4B6F-B191-AFF3314A7443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB775F5F-69C9-4B6F-B191-AFF3314A7443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB775F5F-69C9-4B6F-B191-AFF3314A7443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB775F5F-69C9-4B6F-B191-AFF3314A7443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D6FFD89-5256-4DDA-B1CC-0506E781C9D6}
+	EndGlobalSection
+EndGlobal
